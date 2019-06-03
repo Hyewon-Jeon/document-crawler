@@ -34,7 +34,7 @@
 ## How to execute
 ('./index.js' 파일의 TODO 주석 참조)
 
-1. api key 입력
+1. naver api key 입력: https://developers.naver.com/apps/#/list
 * api key 생성
     ![alt text](./assets/create_api_key.png)
     
