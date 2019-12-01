@@ -26,10 +26,10 @@ class NaverCrawledDocument {
 
   _convertHtmlEntities(str) {
     return str
-      .replace('/&amp;/g', '&')
-      .replace('/&nbsp;/g', ' ')
-      .replace('/&lt;/g', '<')
-      .replace('/&gt;/g', '>');
+      .replace(new RegExp('&amp;', 'g'), '&')
+      .replace(new RegExp('&nbsp;', 'g'), ' ')
+      .replace(new RegExp('&lt;', 'g'), '<')
+      .replace(new RegExp('&gt', 'g'), '>');
   }
 }
 

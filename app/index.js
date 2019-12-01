@@ -1,6 +1,6 @@
 const adapter = require('./adapter');
-const Crawler = require('./crawler');
-const Repository = require('./repository');
+const Crawler = require('./crawler/naver');
+const Repository = require('./repository/document');
 const CrawledDocument = require('./data/crawler/document');
 
 
